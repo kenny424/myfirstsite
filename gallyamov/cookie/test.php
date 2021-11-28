@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Cookie</title>
+</head>
+<body>
+    <?php
+        var_dump($_COOKIE);
+    ?>
+</body>
+</html>

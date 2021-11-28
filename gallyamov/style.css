@@ -1,0 +1,130 @@
+body {
+            background: #FFDED3;
+            color: #000000;
+            font-family: Trebuchet MS, Arial, Times New Roman;
+            font-size: 12px;
+}
+ 
+#container {
+            background:#FFD300;
+            margin: 30px auto;
+            width: 900px;
+            height: 535px;
+            border-left: 1px solid black;
+}
+ 
+#header {
+            background: #FFE773;
+            height: 80px;
+            width: 898px;
+            border: 1px solid black;
+
+}
+ 
+#menu {
+            background: #99CC99;
+            float: left;
+            width: 200px;
+            height: 300px;
+}
+ 
+#content {
+            background: #FFD300;
+            float: right;
+            width: 260px;
+            height: 450px;
+            border:1px solid black;
+}
+ 
+#clear {
+            clear:both;
+}
+
+#footer {
+            background:#FFDE40;
+            border: 1px solid black;
+            height: 124px;
+            width: 898px;
+            position: absolute;
+            bottom: 239px;
+            font-size: 40px;
+            text-align: left;
+}
+.d {
+      position: absolute;
+      font-size: 20px;
+      top:45px;
+      right: 800px;
+}
+.y {
+      position: absolute;
+      font-size: 20px;
+      top:45px;
+      right: 600px;
+}
+.e {
+      font-size: 30px;
+}
+.p{
+      position: absolute;
+      top:60px;
+      right:330px;
+      font-size: 20px;
+      background:#BC8F8F; 
+}
+.i {
+      position: absolute;
+      font-size: 20px;
+      right:220px;
+      top:60px;
+       background:#BC8F8F; 
+}
+.es {
+      position: absolute;
+      right: 200px;
+      bottom: 620px;
+      font-size: 20px;
+
+}
+.es1 {
+      position: absolute;
+      right: 310px;
+      bottom: 570px;
+      font-size: 20px;
+
+}
+.es2 {
+      position: absolute;
+      right: 308px;
+      bottom: 520px;
+      font-size: 20px;
+
+}
+.op {
+      float: center;
+      border: 1px solid black;
+      position: absolute;
+      top:112px;
+      }
+a{
+      text-decoration:none;
+}
+a:visited {
+      color:      #511602;
+}
+.yarik {
+      font-size: 17px;
+}
+.bochok{
+      position: absolute;
+      right: 200px;
+      top:20px;
+}
+.lolkek{
+      position: absolute;
+      top: 350px;
+}
+ ::selection {
+    color: white; 
+    background: #5a0077 ; 
+}

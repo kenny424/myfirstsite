@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PHP Урок 2.</title>
+	<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="body">
+<p style="font-size:18pt; text-align:center;">Рассылка сообщений<p />
+  <form method="post" action="sender_mail.php">
+    <label for="subject">Тема:</label>
+		<input type="text" name="subject" size="50%"/><br /><br />
+    <label for="body_text">Текст</label>
+		<textarea rows="8" name="body_text" cols="72"></textarea><br />
+		<div class="send">
+			<input type="submit" id="send" value="Отправить" name="submit" />
+		</div>
+  </form>
+</div>
+
+<div id="right">
+	&#9658; <a href="add_mail.html">Добавить подписчика</a><br />
+	&#9658; <a href="send_mail.html">Рассылка сообщений</a><br />
+	&#9658; <a href="dell_mail.html">Удалить подписчика</a>
+</div>
+
+</body>
+</html>

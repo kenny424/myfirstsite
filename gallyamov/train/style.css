@@ -1,0 +1,10 @@
+.train{
+	position: absolute;
+	cursor: pointer;
+	width: 250px;
+	height: 250px;
+	left: 1000px;
+	padding-top: 300px;
+	padding-right: 200px;
+	transition: left 3s cubic-bezier(.5,-1,.5,2);
+}
